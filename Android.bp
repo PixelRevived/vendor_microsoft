@@ -50,6 +50,7 @@ android_app_import {
     owner: "microsoft",
     apk: "deviceintegrationservice.apk",
     presigned: true,
+    preprocessed: true,
     dex_preopt: {
         enabled: false,
     },
@@ -65,6 +66,7 @@ android_app_import {
     owner: "microsoft",
     apk: "linktowindows.apk",
     presigned: true,
+    preprocessed: true,
     dex_preopt: {
         enabled: false,
     },
